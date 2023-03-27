@@ -1,8 +1,12 @@
-Feature: Sauce Demo Test Cases
+Feature: Shopping Cart Functionality
+  As a user of the Sauce Demo website
+  I want to be able to login, filter products, add and remove products from my cart, checkout, and logout
+  So that I can purchase items I'm interested in
 
 
   @SauceDemo
-  Scenario: Verify user is able to login successfully
+  Scenario: Verify user is able to login successfully,filter products,add products to cart,
+            place order and log out
     Given [Web] Launch Sauce Demo Website
     When  [Web] User enters username "standard_user"
     When  [Web] User enters password "secret_sauce"
